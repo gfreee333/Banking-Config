@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781599547469</updated>
       <workItem from="1781599548544" duration="3224000" />
-      <workItem from="1781697746077" duration="632000" />
+      <workItem from="1781697746077" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации">
       <option name="closed" value="true" />
@@ -82,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781600246753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix#1: Убрал ненужную конфигурацию, добавил необходимую конфигурацию для Auth-Service">
+      <option name="closed" value="true" />
+      <created>1781698509339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781698509339</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix#2: Ошибка в название конфигурационный файлов">
+      <option name="closed" value="true" />
+      <created>1781700371893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781700371893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации" />
+    <MESSAGE value="fix#1: Убрал ненужную конфигурацию, добавил необходимую конфигурацию для Auth-Service" />
+    <MESSAGE value="fix#2: Ошибка в название конфигурационный файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix#2: Ошибка в название конфигурационный файлов" />
   </component>
 </project>
