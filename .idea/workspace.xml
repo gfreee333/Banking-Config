@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781599547469</updated>
       <workItem from="1781599548544" duration="3224000" />
-      <workItem from="1781697746077" duration="2968000" />
+      <workItem from="1781697746077" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации">
       <option name="closed" value="true" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781700371893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test#1: Проверка работоспособности Cloud Bus">
+      <option name="closed" value="true" />
+      <created>1781702317764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781702317764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,7 @@
     <MESSAGE value="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации" />
     <MESSAGE value="fix#1: Убрал ненужную конфигурацию, добавил необходимую конфигурацию для Auth-Service" />
     <MESSAGE value="fix#2: Ошибка в название конфигурационный файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix#2: Ошибка в название конфигурационный файлов" />
+    <MESSAGE value="test#1: Проверка работоспособности Cloud Bus" />
+    <option name="LAST_COMMIT_MESSAGE" value="test#1: Проверка работоспособности Cloud Bus" />
   </component>
 </project>
