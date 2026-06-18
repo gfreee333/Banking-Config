@@ -13,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781705142871</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: Возвращаю конфигурацию в изначальное состояние">
+      <option name="closed" value="true" />
+      <created>1781717603794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781717603794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <MESSAGE value="test#2: Проверка работоспособности Cloud Bus" />
     <MESSAGE value="test#3: Проверка работоспособности Cloud Bus" />
     <MESSAGE value="test#4: Проверка работоспособности Cloud Bus" />
-    <option name="LAST_COMMIT_MESSAGE" value="test#4: Проверка работоспособности Cloud Bus" />
+    <MESSAGE value="fix: Возвращаю конфигурацию в изначальное состояние" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Возвращаю конфигурацию в изначальное состояние" />
   </component>
 </project>
