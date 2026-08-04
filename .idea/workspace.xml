@@ -38,28 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ЧуХаА/Desktop/Банк-Проект/config-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ЧуХаА/Desktop/Банк-Проект/banking-config/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ЧуХаА/Desktop/Банк-Проект/api-gateway&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ЧуХаА/Desktop/Банк-Проект/banking-config/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,6 +81,8 @@
       <workItem from="1781786280834" duration="358000" />
       <workItem from="1781790834985" duration="804000" />
       <workItem from="1785004754709" duration="6000" />
+      <workItem from="1785839196059" duration="12692000" />
+      <workItem from="1785860418823" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации">
       <option name="closed" value="true" />
@@ -162,7 +164,79 @@
       <option name="project" value="LOCAL" />
       <updated>1781791760562</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test/api-gateway: Конфигурация для проверки подключения Gateway сервиса к Config-Service + Discovery-Service">
+      <option name="closed" value="true" />
+      <created>1785841660685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1785841660685</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Добавил общую настройку gateway под все профили,&#10;добавил маршрут + уровень логирования для dev профиля">
+      <option name="closed" value="true" />
+      <created>1785843859611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1785843859611</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: В новых версиях Spring Cloud в настройках конфигурациях используется server.webflux">
+      <option name="closed" value="true" />
+      <created>1785844557255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1785844557255</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: *">
+      <option name="closed" value="true" />
+      <created>1785845069747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1785845069747</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Открыл все доступные endpoints для Actuator, в рамках тестирования">
+      <option name="closed" value="true" />
+      <created>1785846206446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1785846206446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="убрал gateway из web endpoins">
+      <option name="closed" value="true" />
+      <created>1785846935040</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1785846935040</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Поменял регистр на нижний, проверю сейчас, отработает ли маршрутизация через Api Geteway">
+      <option name="closed" value="true" />
+      <created>1785848464063</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1785848464063</updated>
+    </task>
+    <task id="LOCAL-00018" summary="spring.cloud.gateway.server.webflux.routes[0].filters[0]=StripPrefix=0 добавил, чтобы не происходило обрезание до /login, возможно поможет решить проблему">
+      <option name="closed" value="true" />
+      <created>1785850409421</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1785850409421</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Минимальные настройки системы под DEV/PROD для ApiGateway&#10;В будущем при необходимости добавлю дополнительные настройки">
+      <option name="closed" value="true" />
+      <created>1785852751332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1785852751332</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +264,15 @@
     <MESSAGE value="fix: Возвращаю конфигурацию в изначальное состояние" />
     <MESSAGE value="feat/auth-service: Добавил настройки Redis для Auth-Service, общие + конкретные под Dev и Prod" />
     <MESSAGE value="feat/auth-service: Добавил данные для получения public + private ключей, время жизни access токена уменьшил до 15 минут" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/auth-service: Добавил данные для получения public + private ключей, время жизни access токена уменьшил до 15 минут" />
+    <MESSAGE value="test/api-gateway: Конфигурация для проверки подключения Gateway сервиса к Config-Service + Discovery-Service" />
+    <MESSAGE value="feat: Добавил общую настройку gateway под все профили,&#10;добавил маршрут + уровень логирования для dev профиля" />
+    <MESSAGE value="fix: В новых версиях Spring Cloud в настройках конфигурациях используется server.webflux" />
+    <MESSAGE value="feat: *" />
+    <MESSAGE value="feat: Открыл все доступные endpoints для Actuator, в рамках тестирования" />
+    <MESSAGE value="убрал gateway из web endpoins" />
+    <MESSAGE value="Поменял регистр на нижний, проверю сейчас, отработает ли маршрутизация через Api Geteway" />
+    <MESSAGE value="spring.cloud.gateway.server.webflux.routes[0].filters[0]=StripPrefix=0 добавил, чтобы не происходило обрезание до /login, возможно поможет решить проблему" />
+    <MESSAGE value="Минимальные настройки системы под DEV/PROD для ApiGateway&#10;В будущем при необходимости добавлю дополнительные настройки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Минимальные настройки системы под DEV/PROD для ApiGateway&#10;В будущем при необходимости добавлю дополнительные настройки" />
   </component>
 </project>
