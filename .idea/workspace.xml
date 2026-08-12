@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ЧуХаА/Desktop/Bank-Project/banking-config",
+    "last_opened_file_path": "C:/Users/ЧуХаА/Desktop/Bank-Project/config-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,7 +86,7 @@
       <workItem from="1785863779270" duration="209000" />
       <workItem from="1785922038371" duration="44000" />
       <workItem from="1786020740472" duration="4412000" />
-      <workItem from="1786534858212" duration="4742000" />
+      <workItem from="1786534858212" duration="4809000" />
     </task>
     <task id="LOCAL-00001" summary="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации">
       <option name="closed" value="true" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786025580193</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: Добавил конфигурацию для Notification-Service">
+      <option name="closed" value="true" />
+      <created>1786542994082</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1786542994082</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +314,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации" />
     <MESSAGE value="fix#1: Убрал ненужную конфигурацию, добавил необходимую конфигурацию для Auth-Service" />
     <MESSAGE value="fix#2: Ошибка в название конфигурационный файлов" />
     <MESSAGE value="test#1: Проверка работоспособности Cloud Bus" />
@@ -331,6 +338,7 @@
     <MESSAGE value="fix: Создал таким образом больше проблем, нужно решить корень проблемы, а не использовать костыльную попытке рушить данную проблему" />
     <MESSAGE value="fix: Запуск Docker-Compose прошла успешно на данных настройках конфигурации, решение использовать переменные окружение было правильное.&#10;Поправил Api-Getaway application для финальной проверки работоспособности Docker-Compose" />
     <MESSAGE value="fix: С портом для Redis допустил опечатку, из-за чего Api-Getaway в Docker-Compose упало при попытке поднять контейнер" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: С портом для Redis допустил опечатку, из-за чего Api-Getaway в Docker-Compose упало при попытке поднять контейнер" />
+    <MESSAGE value="feat: Добавил конфигурацию для Notification-Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавил конфигурацию для Notification-Service" />
   </component>
 </project>
