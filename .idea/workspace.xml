@@ -88,7 +88,8 @@
       <workItem from="1786020740472" duration="4412000" />
       <workItem from="1786534858212" duration="8716000" />
       <workItem from="1786557949041" duration="775000" />
-      <workItem from="1786635819331" duration="2278000" />
+      <workItem from="1786635819331" duration="2383000" />
+      <workItem from="1786954499489" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="feat(discovery-config)#1: Добавил конфигурацию для discovery-service в общие хранилище конфигурации">
       <option name="closed" value="true" />
@@ -314,7 +315,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786545067523</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: Добавил настройки, для подключения к БД для Notification-Service, для реализации логики идемпотентного Consumera">
+      <option name="closed" value="true" />
+      <created>1786649954924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1786649954924</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: Добавил базовую конфигурацию для Account-Service">
+      <option name="closed" value="true" />
+      <created>1786954948691</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1786954948691</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,8 +349,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix#2: Ошибка в название конфигурационный файлов" />
-    <MESSAGE value="test#1: Проверка работоспособности Cloud Bus" />
     <MESSAGE value="test#2: Проверка работоспособности Cloud Bus" />
     <MESSAGE value="test#3: Проверка работоспособности Cloud Bus" />
     <MESSAGE value="test#4: Проверка работоспособности Cloud Bus" />
@@ -357,6 +372,8 @@
     <MESSAGE value="fix: С портом для Redis допустил опечатку, из-за чего Api-Getaway в Docker-Compose упало при попытке поднять контейнер" />
     <MESSAGE value="feat: Добавил конфигурацию для Notification-Service" />
     <MESSAGE value="fix: Настраиваю Email для работы с Spring Email" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Настраиваю Email для работы с Spring Email" />
+    <MESSAGE value="feat: Добавил настройки, для подключения к БД для Notification-Service, для реализации логики идемпотентного Consumera" />
+    <MESSAGE value="feat: Добавил базовую конфигурацию для Account-Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавил базовую конфигурацию для Account-Service" />
   </component>
 </project>
